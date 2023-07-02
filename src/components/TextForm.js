@@ -33,7 +33,7 @@ export default function TextForm(props) {
         // console.log("On Change");
         setText(event.target.value);
     }
-    const [text, setText] = useState('');
+    const [text, setText] = useState('')
     return (
         <>
             <div className="container" style={{color: props.mode==='dark'?'white':'black'}}>
